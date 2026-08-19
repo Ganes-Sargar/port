@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ganesh Sargar — Data Analyst portfolio. SQL, Python, Power BI, Excel and analytics projects." />
+  <title>Ganesh Sargar — Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <span class="loader-mark">GS</span>
+      <span class="loader-text">loading portfolio</span>
+      <div class="loader-line"><span></span></div>
+    </div>
+  </div>
+
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+  <div class="noise"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Ganesh Sargar home">
+      <span class="brand-mark">GS</span>
+      <span class="brand-name">Ganesh Sargar</span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="#about">About</a>
+      <a href="#experience">Journey</a>
+      <a href="#projects">Work</a>
+      <a href="#stack">Stack</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☾</button>
+      <a class="header-cta" href="#contact">Let's talk <span>↗</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">01 — About</a>
+    <a href="#experience">02 — Journey</a>
+    <a href="#projects">03 — Work</a>
+    <a href="#stack">04 — Stack</a>
+    <a href="#achievements">05 — Achievements</a>
+    <a href="#contact">06 — Contact</a>
+  </div>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="pulse"></span> AVAILABLE FOR DATA ANALYST ROLES</div>
+          <p class="hero-location">Based in Maharashtra, India · Final-year CSE student</p>
+          <h1>Turning <span>data</span><br>into decisions.</h1>
+          <p class="hero-lead">I'm Ganesh Sargar, a Computer Science Engineering student focused on Data Analytics, business intelligence and practical problem solving with SQL, Python, Power BI and Excel.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary magnetic" href="#projects">Explore my work <span>↘</span></a>
+            <a class="btn btn-ghost magnetic" href="assets/resume.pdf" download>Download resume <span>↓</span></a>
+          </div>
+          <div class="social-row">
+            <a href="https://github.com/Ganes-Sargar" target="_blank" rel="noopener" class="social-link">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/ganesh-sargar-319386298/" target="_blank" rel="noopener" class="social-link">LinkedIn ↗</a>
+            <a href="https://www.geeksforgeeks.org/profile/sargarga7mi9" target="_blank" rel="noopener" class="social-link">GFG ↗</a>
+            <a href="https://leetcode.com/u/sargarganesh/" target="_blank" rel="noopener" class="social-link">LeetCode ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="profile-frame">
+            <div class="profile-glow"></div>
+            <img src="assets/profile.jpg" alt="Ganesh Sargar professional portrait">
+            <div class="profile-tag tag-top">DATA ANALYST</div>
+            <div class="profile-tag tag-bottom">SQL · PYTHON · BI</div>
+          </div>
+          <div class="floating-card card-cgpa"><strong>8.45</strong><span>CGPA</span></div>
+          <div class="floating-card card-win"><strong>1st</strong><span>RIT Hackathon 2025</span></div>
+        </div>
+      </div>
+      <div class="hero-scroll"><span>Scroll to explore</span><i></i></div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-number">01</span>
+          <div><p class="eyebrow">ABOUT ME</p><h2>The person behind the dashboards.</h2></div>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="large-copy">I like taking messy information and turning it into something a team can actually use.</p>
+            <p>I'm pursuing B.Tech in Computer Science Engineering with specialization in IoT, Cyber Security and Blockchain Technology. My current career focus is Data Analytics, where I combine analytical thinking with SQL, Python, Power BI and Excel.</p>
+            <p>I've built end-to-end analytics projects, worked with business-style datasets, and represented my team in national-level hackathons. My approach is simple: understand the question, clean the data, find the pattern, and communicate the insight clearly.</p>
+          </div>
+          <div class="stats-grid reveal">
+            <div class="stat"><strong data-count="8.45">0</strong><span>Current CGPA</span></div>
+            <div class="stat"><strong data-count="5">0</strong><span>Analytics projects</span></div>
+            <div class="stat"><strong data-count="1">0</strong><span>1st prize win</span></div>
+            <div class="stat"><strong data-count="3">0</strong><span>Hackathons</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="journey section" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-number">02</span>
+          <div><p class="eyebrow">JOURNEY</p><h2>Learning by building.</h2></div>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><div class="timeline-date">2023 — 2027</div><div class="timeline-dot"></div><div class="timeline-content"><h3>B.Tech — Computer Science Engineering</h3><p>Annasaheb Dange College of Engineering & Technology, Ashta</p><span>CSE · IoT · Cyber Security · Blockchain</span></div></article>
+          <article class="timeline-item reveal"><div class="timeline-date">2025</div><div class="timeline-dot"></div><div class="timeline-content"><h3>National-level Hackathon Winner</h3><p>RIT Hackathon 2025 — 1st Prize · Team Leader</p><span>Problem solving · teamwork · presentation · rapid prototyping</span></div></article>
+          <article class="timeline-item reveal"><div class="timeline-date">Present</div><div class="timeline-dot"></div><div class="timeline-content"><h3>Building a Data Analytics Portfolio</h3><p>SQL, Python, Power BI and Excel projects focused on business questions.</p><span>Open to Data Analyst opportunities</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-number">03</span>
+          <div><p class="eyebrow">SELECTED WORK</p><h2>Projects I'm proud of.</h2></div>
+        </div>
+        <div class="project-list">
+          <article class="project-card reveal" data-project="0"><div class="project-index">01</div><div class="project-main"><div class="project-top"><span>Analytics · E-commerce</span><a href="https://github.com/Ganes-Sargar/estore-pulse" target="_blank" rel="noopener" aria-label="Open E-Store Pulse GitHub">↗</a></div><h3>E-Store Pulse</h3><p>Business-focused e-commerce analytics project designed to surface sales performance, product trends and actionable insights.</p><div class="tags"><span>SQL</span><span>Power BI</span><span>Excel</span></div></div></article>
+          <article class="project-card reveal" data-project="1"><div class="project-index">02</div><div class="project-main"><div class="project-top"><span>SQL · Customer Analytics</span><a href="https://github.com/Ganes-Sargar/customer_shopping_behavior_sql" target="_blank" rel="noopener" aria-label="Open Customer Shopping SQL GitHub">↗</a></div><h3>Customer Shopping Behavior — SQL</h3><p>SQL analysis of customer purchasing patterns using business questions, aggregations, CTEs and analytical querying.</p><div class="tags"><span>PostgreSQL</span><span>CTE</span><span>Window Functions</span></div></div></article>
+          <article class="project-card reveal" data-project="2"><div class="project-index">03</div><div class="project-main"><div class="project-top"><span>Python · BI</span><a href="https://github.com/Ganes-Sargar/customer_shopping_behavior" target="_blank" rel="noopener" aria-label="Open Customer Shopping Behavior GitHub">↗</a></div><h3>Customer Shopping Behavior Analysis</h3><p>An end-to-end analytics workflow from data preparation and exploration to business-focused dashboard storytelling.</p><div class="tags"><span>Python</span><span>Pandas</span><span>Power BI</span></div></div></article>
+          <article class="project-card reveal" data-project="3"><div class="project-index">04</div><div class="project-main"><div class="project-top"><span>Food · Grocery Analytics</span><a href="https://github.com/Ganes-Sargar/food-grocery-delivery-analytics" target="_blank" rel="noopener" aria-label="Open Food Grocery Analytics GitHub">↗</a></div><h3>Food & Grocery Delivery Analytics</h3><p>Exploration of delivery and grocery data to identify patterns, performance signals and opportunities for better decisions.</p><div class="tags"><span>Python</span><span>Pandas</span><span>Matplotlib</span></div></div></article>
+          <article class="project-card reveal" data-project="4"><div class="project-index">05</div><div class="project-main"><div class="project-top"><span>SQL · Sales Analytics</span><a href="https://github.com/Ganes-Sargar/sales-analytics-sql-project" target="_blank" rel="noopener" aria-label="Open Sales Analytics SQL GitHub">↗</a></div><h3>Sales Analytics — SQL Project</h3><p>SQL-driven sales analysis focused on extracting trends and metrics that can support business reporting and decisions.</p><div class="tags"><span>SQL</span><span>PostgreSQL</span><span>EDA</span></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="stack section" id="stack">
+      <div class="container">
+        <div class="section-head reveal"><span class="section-number">04</span><div><p class="eyebrow">TECH STACK</p><h2>Tools I use to make data useful.</h2></div></div>
+        <div class="stack-grid">
+          <div class="stack-card reveal"><span class="stack-label">01 / DATA ANALYTICS</span><h3>SQL · Python · Excel</h3><p>Cleaning, querying, analysis, KPI development and business problem solving.</p><div class="stack-icons"><span>SQL</span><span>PY</span><span>EXCEL</span></div></div>
+          <div class="stack-card reveal"><span class="stack-label">02 / BUSINESS INTELLIGENCE</span><h3>Power BI · DAX</h3><p>Interactive dashboards, data modeling, measures and clear visual storytelling.</p><div class="stack-icons"><span>BI</span><span>DAX</span></div></div>
+          <div class="stack-card reveal"><span class="stack-label">03 / DATABASES</span><h3>PostgreSQL · MySQL</h3><p>Relational data, joins, CTEs, window functions and analytical queries.</p><div class="stack-icons"><span>PG</span><span>SQL</span></div></div>
+          <div class="stack-card reveal"><span class="stack-label">04 / DEVELOPER TOOLING</span><h3>Git · GitHub · C++</h3><p>Version control, project documentation and problem-solving fundamentals.</p><div class="stack-icons"><span>GIT</span><span>GH</span><span>C++</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="achievement section" id="achievements">
+      <div class="container">
+        <div class="section-head reveal"><span class="section-number">05</span><div><p class="eyebrow">ACHIEVEMENTS</p><h2>Proof that building matters.</h2></div></div>
+        <div class="achievement-feature reveal">
+          <div class="achievement-copy"><span class="winner-badge">★ 1ST PRIZE</span><h3>RIT Hackathon 2025</h3><p>National-level hackathon achievement as Team Leader. A milestone built through teamwork, technical execution and presenting a solution under pressure.</p><div class="achievement-meta"><span>Team Leader</span><span>National Level</span><span>2025</span></div></div>
+          <div class="achievement-photo"><img src="assets/achv_solo.jpg" alt="Ganesh Sargar with RIT Hackathon 2025 award" loading="lazy"></div>
+        </div>
+        <div class="gallery">
+          <button class="gallery-item reveal" data-img="assets/achv_stage.jpg" data-caption="RIT Hackathon 2025 — Prize ceremony"><img src="assets/achv_stage.jpg" alt="RIT Hackathon stage ceremony" loading="lazy"></button>
+          <button class="gallery-item reveal" data-img="assets/achv_handover1.jpg" data-caption="Certificate presentation"><img src="assets/achv_handover1.jpg" alt="Certificate presentation" loading="lazy"></button>
+          <button class="gallery-item reveal" data-img="assets/achv_handover2.jpg" data-caption="Certificate handover"><img src="assets/achv_handover2.jpg" alt="Certificate handover" loading="lazy"></button>
+          <button class="gallery-item reveal" data-img="assets/achv_certificate.jpg" data-caption="RIT Hackathon certificate"><img src="assets/achv_certificate.jpg" alt="RIT Hackathon certificate" loading="lazy"></button>
+          <button class="gallery-item reveal" data-img="assets/achv_poster.jpg" data-caption="College congratulations post"><img src="assets/achv_poster.jpg" alt="College congratulations poster" loading="lazy"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="profiles section">
+      <div class="container">
+        <div class="section-head reveal"><span class="section-number">06</span><div><p class="eyebrow">ONLINE PRESENCE</p><h2>Find me around the web.</h2></div></div>
+        <div class="profile-links reveal">
+          <a href="https://github.com/Ganes-Sargar" target="_blank" rel="noopener"><span>GitHub</span><small>Projects & code</small><b>↗</b></a>
+          <a href="https://www.linkedin.com/in/ganesh-sargar-319386298/" target="_blank" rel="noopener"><span>LinkedIn</span><small>Professional profile</small><b>↗</b></a>
+          <a href="https://www.geeksforgeeks.org/profile/sargarga7mi9" target="_blank" rel="noopener"><span>GeeksforGeeks</span><small>DSA & coding profile</small><b>↗</b></a>
+          <a href="https://leetcode.com/u/sargarganesh/" target="_blank" rel="noopener"><span>LeetCode</span><small>Problem solving</small><b>↗</b></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal"><p class="eyebrow">GET IN TOUCH</p><h2>Let's turn data<br>into <span>impact.</span></h2><p>I'm actively looking for opportunities where I can learn, contribute and grow as a Data Analyst.</p><div class="contact-actions"><a class="btn btn-primary" href="mailto:sargarganesh800@gmail.com">Email me <span>↗</span></a><a class="btn btn-ghost" href="tel:+917709012576">Call me <span>↗</span></a></div></div>
+        <div class="contact-card reveal"><span class="contact-label">CONTACT</span><a href="mailto:sargarganesh800@gmail.com">sargarganesh800@gmail.com</a><a href="tel:+917709012576">+91 77090 12576</a><span class="contact-note">Open to internships, entry-level Data Analyst roles and meaningful analytics projects.</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><span>© 2026 Ganesh Sargar</span><span>Built with HTML · CSS · JavaScript · TypeScript</span><a href="#home">Back to top ↑</a></div></footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button id="lightboxClose" aria-label="Close image">×</button><div class="lightbox-inner"><img id="lightboxImg" src="" alt=""><p id="lightboxCaption"></p></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
